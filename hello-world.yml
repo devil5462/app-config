@@ -1,3 +1,18 @@
 name: devil5462
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+logging: # <----New sections below
+  level:
+    io:
+      pivotal: DEBUG
+
 greeting:
-  displayFortune: true
+  displayFortune: false
+
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
