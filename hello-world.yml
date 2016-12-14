@@ -1,1 +1,3 @@
 name: devil5462
+greeting:
+  displayFortune: false
